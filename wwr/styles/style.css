@@ -1,51 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Permanent+Marker&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
 nav a{
     text-align: center;
+    font-family: "Lato";
 }
 #hero-msg h1{
     text-align: center;
+    font-family: "Permanent Marker";
 }
 #hero-msg h4{
     text-align: center;
+    font-family: "Lato";
+}
+h2{
+    font-family: "Permanent Marker";
+    margin: 0;
 }
 .button-box{
     text-align: center;
+    font-family: "Lato";
 }
 main section{
     text-align: center;
+    font-family: "Lato";
+}
+main section img {
+    box-sizing: border-box;
 }
 #background{
     height: 725;
-    background-color: #ADEEE3;
+    background-color: #86DEB7;
 }
 body{
     background-color: #ADEEE3;
+    font-family: "Lato";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #50723C;
+    font-family: "Lato";
 }
 nav a{
     color:#ADEEE3;
     text-decoration: none;
+    font-family: "Lato";
+    padding: 35px;
 }
 nav a:hover{
     background-color: #ADEEE3;
     color:#50723C;
+    font-family: "Lato";
 }
 .book{
     background-color: #86DEB7;
     text-decoration: none;
+    font-family: "Lato";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #86DEB7;
     text-decoration: none;
+    font-family: "Lato";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #50723C;
     color:#ADEEE3
+    
+    
 }
 .join:hover{
     background-color:  #50723C;
@@ -53,29 +90,59 @@ nav a:hover{
 }
 .msg{
     background-color: #86DEB7;
+    font-family: "Lato";
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #000000;
 }
 footer{
     background-color: #86DEB7;
+    font-family: "Lato";
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
+    font-family: "Lato";
+    padding: 25px 50px;
 }
 footer a:hover{
     background-color: #50723C;
     color:#ADEEE3;
+    font-family: "Lato";
 }
 .logo{
     width: 80px;
 }
+#logo-link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
+    font-family: "Lato";
 }
 footer p a:hover{
     text-decoration: underline;
+    font-family: "Lato";
 }
 #hero-img{
     width: 100%;
+}
+#social{
+    padding-top: 15px;
 }
