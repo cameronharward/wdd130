@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Tiro+Kannada&display=swap'); 
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 100% 1fr 1fr 1fr 100%;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2em;
+    border: 3px solid #9C9C9C;
+}
+body{
+    background: #000000;
+    color:#FFFFFF;
+}
+main{
+    font-family: 'Tiro Kannada', serif;
+}
+#history{
+    grid-column: 2/3;
+}
+#sequel{
+    grid-column: 4/5;
+}
+#logo_link{
+    grid-column: 3/4;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color:#FFFFFF;
+    text-decoration: none;
+    text-align: center; 
+    justify-self: center;
+    align-self: center;
+}
+nav a:hover{
+    color:#8CD6F9;
+}
+#all-arguments{
+    margin-right: 100px;
+    margin-left: 100px; 
+
+}
+.arguments1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s;
+    border-radius: 10px;
+    
+}
+.arguments1:hover{
+    background:#8CD6F9;
+    color: #000000;
+}
+.arguments2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+.arguments2:hover{
+    background:#8CD6F9;
+    color: #000000;
+}
+#middle{
+    text-align: right;
+    padding-right: 10px;
+}
+#img-padding{
+    padding-left: 23%;
+}
+.arguments3{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    transition: transform .3s;
+    border-radius: 10px;
+
+}
+.arguments3:hover{
+    background:#8CD6F9;
+    color: #000000;
+}
+.body-image{
+    border: 5px solid #9C9C9C;
+    border-radius: 15%;
+}
+#title{
+    font-family: 'Marcellus SC', serif;
+    color: #8CD6F9;
+    text-align: center;
+    padding-top: 10%;
+}
+.buygame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10%;
+    transition: transform .3s;
+}
+.buygame:hover{
+    border: 10px solid white;
+    transform: scale(1.1);
+}
+footer{
+    background-color: #8CD6F9;
+    color:#000000;
+    font-family: 'Marcellus SC', serif;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    text-decoration: none;
+    padding: 25px 50px;
+}
