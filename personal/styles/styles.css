@@ -7,16 +7,39 @@
 #logo_link {
     justify-self: center;
     align-self: center;
+    transition: transform .5s;
 }
+#logo_link:hover{
+    transform: scale(1.1);
+}
+.logo{
+    border-radius: 10%;
+}
+
 header{
     display: grid;
     grid-template-columns: 100% 1fr 1fr 1fr 100%;
     font-family: 'Marcellus SC', serif;
     font-size: 2em;
     border: 3px solid #9C9C9C;
+    background: #000000;
 }
+#header2{
+    display: grid;
+    grid-template-columns: 100% 1fr 1fr 1fr 100%;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2em;
+    border: 3px solid white;
+    background: #000000;
+    margin-bottom: 5%;
+}
+
 body{
     background: #000000;
+    color:#FFFFFF;
+}
+#body2{
+    background: #9C9C9C;
     color:#FFFFFF;
 }
 main{
@@ -120,6 +143,65 @@ nav a:hover{
 .buygame:hover{
     border: 10px solid white;
     transform: scale(1.1);
+}
+.section{
+    text-align: center;
+    border: 5px solid white;
+    background: #000000;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+}
+#text1{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.hungryknight{
+    border: 5px solid white;
+    transition: transform .5s;
+}
+.hungryknight:hover{
+    transform: scale(1.2);
+}
+.section2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px solid white;
+    background: #000000;
+}
+#goaltext1{
+    margin-top: 4%;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#goaltext2{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+#hollowgif1{
+    grid-column: 2/4;
+    grid-row:2/3;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+#hollowgif2{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.startergoals{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    grid-row: 1/5;
+    grid-column: 1/2;
 }
 footer{
     background-color: #8CD6F9;
