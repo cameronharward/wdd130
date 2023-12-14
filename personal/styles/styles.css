@@ -203,6 +203,51 @@ nav a:hover{
     grid-row: 1/5;
     grid-column: 1/2;
 }
+.part1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    transition: transform .3s;
+    border-radius: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border: 3px solid white;
+}
+.silksonglogo{
+    width:50%;
+    border: 3px solid #9C9C9C;
+}
+.part2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius: 1%;
+    border: 3px solid white;
+}
+.clownsong{
+ width: 100%;
+ border-radius: 1%;
+ border: 3px solid #9C9C9C;
+}
+.silksongscreenshot{
+    width: 100%;
+    border-radius: 1%;
+    border: 3px solid #9C9C9C;
+}
 footer{
     background-color: #8CD6F9;
     color:#000000;
